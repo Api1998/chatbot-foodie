@@ -87,10 +87,8 @@ Below is a high-level system diagram showing the architecture:
 ## Demo
 Watch a live demo of the project in action:
 
-<video width="600" controls>
-  <source src="demo/chatbot_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch the Demo Video](https://github.com/Api1998/chatbot-foodie/issues/1#issue-2870665623)
+
 
 
 Note:- If this video doesn't work here or you didn't here any sound. Please feel free to download and watch the demo inside the `demo ` folder.
