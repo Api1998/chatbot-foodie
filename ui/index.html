@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masala Kadai - Order Food Online</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="masala_kadai_logo.png" alt="Masala Kadai Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section id="menu" class="food-menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <!-- Food Item 1 -->
+        <div class="menu-item">
+          <img src="masala_dosa.png" alt="Masala Dosa">
+          <h3>Masala Dosa</h3>
+          <p class="price">$6</p>
+        </div>
+        <!-- Food Item 2 -->
+        <div class="menu-item">
+          <img src="panner_tikka.png" alt="Paneer Tikka">
+          <h3>Paneer Tikka</h3>
+          <p class="price">$10</p>
+        </div>
+        <!-- Food Item 3 -->
+        <div class="menu-item">
+          <img src="butter_chicken.png" alt="Butter Chicken">
+          <h3>Butter Chicken</h3>
+          <p class="price">$9</p>
+        </div>
+        <!-- Food Item 4 -->
+        <div class="menu-item">
+          <img src="vegetable_briyani.png" alt="Vegetable Biryani">
+          <h3>Vegetable Biryani</h3>
+          <p class="price">$8</p>
+        </div>
+
+         <!-- New Items -->
+        <div class="menu-item">
+          <img src="samosa.png" alt="Samosa">
+          <h3>Samosa</h3>
+          <p class="price">$2</p>
+        </div>
+        <div class="menu-item">
+          <img src="tandoori_rotti.png" alt="Tandoori Roti">
+          <h3>Tandoori Roti</h3>
+          <p class="price">$3</p>
+        </div>
+        <div class="menu-item">
+          <img src="idly.png" alt="Idly">
+          <h3>Idly </h3>
+          <p class="price">$5</p>
+        </div>
+        <div class="menu-item">
+          <img src="masala_tea.png" alt="Masala Tea">
+          <h3>Masala Tea</h3>
+          <p class="price">$1</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+    <section id="location">
+        <div class="container">
+        <h2>Our Location</h2>
+        <div class="location-content">
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3430.0849647719765!2d79.85775331392047!3d6.883038587499994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1740136320301!5m2!1sen!2slk" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+            <div class="address">
+            <h3>Visit Us</h3>
+            <address>
+                123, Marine Drive Road,<br>
+                Bambalapitiya, Colombo - 04<br>
+            </address>
+            </div>
+        </div>
+        </div>
+    </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-details">
+        <p><strong>Phone:</strong> <a href="tel:+1234567890">+94 (760) 567-890</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@masalakadai.com">info@masalakadai.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot -->
+  <div class="chatbot-container">
+    <button id="chatbot-toggle" class="chatbot-button">
+      <i class="fas fa-comments"></i>
+    </button>
+    <div id="chatbot" class="chatbot">
+      <div class="chatbot-header">
+        <h3>Chat with Us</h3>
+        <button id="chatbot-close" class="close-button">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="chatbot-body">
+        <iframe class="chat-bot" width="100%" height="430" allow="microphone;" src="paste your dialog flow embed integration url"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Masala Kadai. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+Training Phrases and Responses for intents created in Dialog Flow  (Authored by Apisaruthan: - Inspired from Dhaval Patel. Codebasics YouTube Channel)
+
+**Note**
+--------
+- You can add more pharases for Training based on your specific requirement for each intent in Dialog flow :)
+
+
+Default Welcome Intent
+======================
+
+*Phrases*
+---------
+1. heya
+2. hi there
+3. hey there
+4. howdy
+5. hello hi
+6. greetings
+7. hello
+8. hey
+9. hello there
+10. hi
+11. hello there
+
+*Text Response*
+---------------
+
+1. Hello, How can I help you? You can say "New Order" or "Track Order" or "store hours"
+2. Greetings! How can I assist? You can say "New Order" or "Track Order" or "Store hours"
+3. Good day! What can I do for you today? You can say "New Order" or "Track Order" or "Store hours"
+
+
+Default Fallback Intent
+=======================
+
+*Text Response*
+---------------
+
+1. I didn't understand. You can say 'New Order' or 'Track Order' or 'Store hours'. Also, in a new order, please mention only items from our available menu: Paneer Tikka, Butter Chicken, Masala Dosa, Vegetable Briyani, Idly, Tandoori Roti, Masala Tea and Samosa. Also specify a quantity for each item for example: "One masala dosa and 2 masala tea"
+2. Can you say that again?, I couldn't get what you just said
+
+
+Intent = new order
+==================
+
+*Phrases*
+---------
+1. New order request
+2. new order
+3. Place new order
+4. new order please
+5. Start a new order
+
+*Text Response*
+---------------
+
+1. Ok, starting a new order. You can say things like "I want two Masala Dosa and one Masala Tea". Make sure to specify a quantity for every food item! Also, we have only the following items on our menu: Paneer Tika, Butter Chicken, Idly, Masala Tea, Masala Dosa, Vegetable Biryani, Tandoori roti, and Samosa.
+2. Starting new order. Specify food items and quantities. For example, you can say, "I would like to order two samosa and one tandoori roti. Also, we have only the following items on our menu: Paneer Tika, Butter Chicken, Idly, Masala Tea, Masala Dosa, Vegetable Biryani, Tandoori roti, and Samosa.
+
+
+Intent = track order
+====================
+
+*Phrases*
+---------
+1. check the status of my order
+2. track existing order
+3. track order
+4. I want to track my Order
+5. track my order please
+
+*Text Response*
+---------------
+
+1. Sure. What is your order id?
+2. Sure. Please enter your order id.
+3. Definitely. What is your order id?
+
+
+Intent = store hours
+====================
+
+*Phrases*
+---------
+1. store closing time
+2. I want to know the store hours
+3. I want to know the store opening time
+4. store opening and closing time
+5. store opening time
+6. store hours
+7. store hours please
+8. let me know the store hours
+9. let me know the store hours please
+10. Can I know the store hours
+
+*Text Response*
+---------------
+
+1. Sure. What is your order id?
+2. Sure. Please enter your order id.
+3. Definitely. What is your order id?
+
+
+Intent = add order - context: ongoing-order
+====================
+
+*Phrases*
+---------
+1. Also, please give me 2  masala chai
+2. Additionally, I'd like 2 masala tea.
+3. 2 tandoori roti and ok lets add one butter chicken too
+4. 3 biryani
+5. Oh yes, add one paneer tikka as well
+6. Can I get 2 plates of masala dosa, along with one roti  and 1 tea?
+7. I'll take 2 orders of butter chicken, one paneer tika, and 1 tandoori roti , if you don't mind
+8. I want 1 chai 2  veg briyani and one samosa, do it fast plz
+9. In addition, add 1  idly and 2 samosa
+10. Moreover, include 2  idly
+11. Give me 2 plates of dosa, one paneer tikka
+12. I'd like to order two plates of vegetable briyani,  one masala dosa, and 3 idly , please.
+13. Can you please get me two servings of samosa, one  tandoori naan, and one masala tea?
+14. Please prepare 2 portions of tikka masala , along with one idly sambar  and 1 dosa for me
+15. 3 masala dosa, 2 samosa, 1 butter chicken curry
+
+*Text Response*
+---------------
+
+1. Do you want to add something?
+2. Anything else?
+
+
+Intent = complete order - context: ongoing-order
+====================
+
+*Phrases*
+---------
+1. Nope
+2. That's all I needed
+3. No
+4. That's it
+5. Done
+6. Place an order
+7. Done ordering it
+8. No thanks
+
+*Text Response*
+---------------
+
+1. Great. Your order is placed. Here is your order id #
+
+
+Intent = remove order - context: ongoing-order
+====================
+
+*Phrases*
+---------
+1. hey, plz get rid of masala dosa and samosa
+2. I don't want paneer tikka
+3. remove butter chicken from my order
+4. can you remove briyani ?
+5. remove masala tea
+6. I no longer want the chai in my order, please remove it
+7. Kindly exclude the masala dosai  from my order
+8. I would like to remove the vegetable briyani from my order
+9. Please take the tandoori roti off my order
+10. delete roti from my order
+11. No idly and masala dosa in my order. please remove.
+12. Kindly take butter chicken and idly off the order, please.
+13. I'd like to exclude paneer tikka and samosa, please
+
+*Text Response*
+---------------
+
+1. Successfully removed $food-item from your order
+2. Removed $food-item
+
+
+Intent = track order - context: ongoing-tracking
+====================
+
+*Phrases*
+---------
+1. my order id is 23
+2. my id is 21
+3. 45
+4. 10
+5. here is my order number 675
+6. id is 453
+7. here is my order id # 341
+8. how about 40?
+9. here it is - 63321
+10. here you go: 123
+11. how about 32
+
+
+Intent = end converstation
+====================
+
+*Phrases*
+---------
+1. Thanks, have a great day
+2. Thanks, have a nice day
+3. Thank you
+4. great Thanks
+5. Awesome Thanks
+6. Awesome
+7. Great
+8. Thanks
+
+*Text Response*
+---------------
+
+1. Enjoy your meal
+2. Enjoy your day
+3. Have a great day
+4. Hey,  have a nice day
+
+
