@@ -1,2 +1,4 @@
 mysql-connector-python
 fastapi[standard]
+django==2.2.0
+requests==2.19.0
